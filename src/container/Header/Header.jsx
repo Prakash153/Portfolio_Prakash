@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import { AppWrap } from "../../wrapper";
 import { images } from "../../constants";
 import "./Header.scss";
 const scaleVariants = {
@@ -15,7 +15,7 @@ const scaleVariants = {
 };
 const Header = () => {
   return (
-    <div id="home" className="app__header app__flex">
+    <div className="app__header app__flex">
       {/* The x property defines a range of motion for the element along the horizontal axis, with values going from -100 (left) to 0 (centered) */}
       {/* The opacity property defines the opacity of the element during the animation, which could also have a range of values based on your specific animation. */}
       <motion.div
@@ -69,4 +69,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default AppWrap(Header, "home");
