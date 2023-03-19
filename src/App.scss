@@ -56,7 +56,6 @@
   font-weight: 800;
   text-align: center;
   color: var(--white-color);
-  text-transform: capitalize;
 
   span {
     color: var(--secondary-color);
@@ -74,7 +73,7 @@
 .p-text {
   font-size: 0.8rem;
   text-align: left;
-  color: var(--white-color);
+  color: var(--black-color);
   line-height: 1.5;
 
   @media screen and (min-width: 2000px) {
@@ -85,7 +84,7 @@
 .bold-text {
   font-size: 1rem;
   font-weight: 800;
-  color: var(--white-color);
+  color: var(--black-color);
   text-align: left;
 
   @media screen and (min-width: 2000px) {
