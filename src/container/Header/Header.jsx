@@ -59,7 +59,7 @@ const Header = () => {
           </p>
 
           <a
-            href="https://drive.google.com/drive/folders/1sfRBJjFxSIIsrz28UgA7DkwrGNs0U2zT"
+            href="https://drive.google.com/file/d/15eHzaku_UIYRcUm5bWJEZEcAy9cztDtd/view?usp=sharing"
             className="btn"
           >
             Download Resume
