@@ -64,25 +64,27 @@
       color: var(--secondary-color);
     }
   }
-  button {
-    padding: 1rem 2rem;
+  a {
+    margin-top: 10px;
+    text-decoration: none;
+    display: inline-block;
     border-radius: 10px;
-    border: none;
-    background-color: var(--secondary-color);
-
-    font-weight: 500;
+    text-align: center;
+    border: 1px solid var(--secondary-color);
     color: var(--black-color);
-    outline: none;
-    margin: 2rem 0 0 0;
+    padding: 0.5rem 0.5rem;
+    font-weight: 500;
     font-family: var(--font-base);
-
     transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
     cursor: pointer;
-
     &:hover {
       background-color: var(--black-color);
       border: 1px solid var(--secondary-color);
       color: var(--white-color);
+    }
+
+    @media screen and (max-width: 480px) {
+      width: 55%;
     }
   }
 
@@ -92,7 +94,7 @@
 
     font-weight: 600;
   }
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 780px) {
     margin-top: 25rem;
     p {
       width: 100%;

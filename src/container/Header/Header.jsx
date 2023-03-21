@@ -58,14 +58,12 @@ const Header = () => {
             something amazing together.
           </p>
 
-          <button
+          <a
+            href="https://drive.google.com/drive/folders/1sfRBJjFxSIIsrz28UgA7DkwrGNs0U2zT"
             className="btn"
-            onClick={() => {
-              downloadFileAtUrl(Resume_URL);
-            }}
           >
             Download Resume
-          </button>
+          </a>
         </div>
       </motion.div>
     </div>
