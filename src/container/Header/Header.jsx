@@ -6,7 +6,7 @@ import { AppWrap } from "../../wrapper";
 
 import "./Header.scss";
 
-const Resume_URL = "http://https://prakash153.netlify.app/Prakash_resume.pdf";
+// const Resume_URL = "http://locak/Prakash .pdf";
 const Header = () => {
   const typedRef = useRef(null);
 
@@ -23,20 +23,20 @@ const Header = () => {
     };
   }, []);
 
-  const downloadFileAtUrl = (url) => {
-    fetch(url)
-      .then((response) => response.blob())
-      .then((blob) => {
-        const blobUrl = window.URL.createObjectURL(new Blob([blob]));
-        const filename = url.split("/").pop();
-        const aTag = document.createElement("a");
-        aTag.href = blobUrl;
-        aTag.setAttribute("download", filename);
-        document.body.appendChild(aTag);
-        aTag.click();
-        aTag.remove();
-      });
-  };
+  // const downloadFileAtUrl = (url) => {
+  //   fetch(url)
+  //     .then((response) => response.blob())
+  //     .then((blob) => {
+  //       const blobUrl = window.URL.createObjectURL(new Blob([blob]));
+  //       const filename = url.split("/").pop();
+  //       const aTag = document.createElement("a");
+  //       aTag.href = blobUrl;
+  //       aTag.setAttribute("download", filename);
+  //       document.body.appendChild(aTag);
+  //       aTag.click();
+  //       aTag.remove();
+  //     });
+  // };
   return (
     <div className="app__header app__flex">
       {/* The x property defines a range of motion for the element along the horizontal axis, with values going from -100 (left) to 0 (centered) */}
