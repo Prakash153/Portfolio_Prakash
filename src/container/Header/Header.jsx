@@ -6,7 +6,6 @@ import { AppWrap } from "../../wrapper";
 
 import "./Header.scss";
 
-// const Resume_URL = "http://locak/Prakash .pdf";
 const Header = () => {
   const typedRef = useRef(null);
 
